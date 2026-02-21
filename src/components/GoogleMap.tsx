@@ -25,7 +25,7 @@ const GoogleMap = () => {
         >
           <iframe
             title="AwwalTakeef Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463877.6741498945!2d46.36328569999999!3d24.7253981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1700000000000"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d226.5320566172967!2d46.66626666165779!3d24.709265729222725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1771674771533!5m2!1sen!2s"
             width="100%"
             height="400"
             style={{ border: 0 }}
