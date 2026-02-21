@@ -1,0 +1,128 @@
+export type Language = 'ar' | 'en';
+
+export const translations = {
+  ar: {
+    nav: {
+      home: 'الرئيسية',
+      services: 'خدماتنا',
+      book: 'احجز الآن',
+      contact: 'تواصل معنا',
+    },
+    hero: {
+      title: 'خبراء صيانة التكييف والأجهزة المنزلية في الرياض',
+      subtitle: 'خدمة سريعة وموثوقة من فنيين معتمدين. نصلك أينما كنت في الرياض.',
+      cta: 'احجز فني الآن',
+    },
+    services: {
+      title: 'خدماتنا',
+      subtitle: 'نقدم خدمات صيانة وإصلاح شاملة لجميع الأجهزة المنزلية',
+      ac: 'صيانة وإصلاح المكيفات',
+      acDesc: 'تركيب، صيانة، وإصلاح جميع أنواع المكيفات',
+      fridge: 'إصلاح الثلاجات',
+      fridgeDesc: 'صيانة وإصلاح جميع أنواع الثلاجات والفريزرات',
+      washer: 'إصلاح الغسالات',
+      washerDesc: 'صيانة وإصلاح الغسالات الأوتوماتيكية والنصف أوتوماتيكية',
+      oven: 'إصلاح الأفران',
+      ovenDesc: 'صيانة وإصلاح أفران الغاز والكهرباء',
+    },
+    testimonials: {
+      title: 'آراء عملائنا',
+      subtitle: 'ماذا يقول عملاؤنا عن خدماتنا',
+    },
+    booking: {
+      title: 'احجز موعدك الآن',
+      subtitle: 'املأ النموذج وسنتواصل معك عبر الواتساب',
+      name: 'الاسم الكامل',
+      phone: 'رقم الجوال (واتساب)',
+      appliance: 'نوع الجهاز',
+      selectAppliance: 'اختر نوع الجهاز',
+      issue: 'وصف المشكلة',
+      date: 'التاريخ المفضل',
+      pickDate: 'اختر التاريخ',
+      submit: 'إرسال الطلب',
+      success: 'شكراً لك! سنتواصل معك عبر الواتساب قريباً.',
+      appliances: {
+        ac: 'مكيف',
+        fridge: 'ثلاجة',
+        washer: 'غسالة',
+        oven: 'فرن',
+        other: 'أخرى',
+      },
+    },
+    map: {
+      title: 'موقعنا',
+      subtitle: 'نخدم جميع أحياء الرياض',
+    },
+    footer: {
+      rights: 'جميع الحقوق محفوظة',
+      description: 'شركة متخصصة في صيانة وإصلاح التكييف والأجهزة المنزلية في الرياض',
+    },
+    reviews: [
+      { name: 'أحمد محمد', text: 'خدمة ممتازة وسريعة. الفني كان محترف جداً وأصلح المكيف بسرعة.' },
+      { name: 'سارة العلي', text: 'أفضل شركة صيانة تعاملت معها. أسعار معقولة وجودة عالية.' },
+      { name: 'خالد الراشد', text: 'تجربة رائعة من البداية للنهاية. أنصح الجميع بالتعامل معهم.' },
+    ],
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      services: 'Services',
+      book: 'Book Now',
+      contact: 'Contact',
+    },
+    hero: {
+      title: 'Expert HVAC & Appliance Repair in Riyadh',
+      subtitle: 'Fast, reliable service from certified technicians. We come to you anywhere in Riyadh.',
+      cta: 'Book a Technician',
+    },
+    services: {
+      title: 'Our Services',
+      subtitle: 'Comprehensive maintenance and repair services for all home appliances',
+      ac: 'AC Repair & Maintenance',
+      acDesc: 'Installation, maintenance, and repair of all AC types',
+      fridge: 'Refrigerator Repair',
+      fridgeDesc: 'Maintenance and repair of all refrigerators and freezers',
+      washer: 'Washing Machine Repair',
+      washerDesc: 'Repair of automatic and semi-automatic washing machines',
+      oven: 'Oven Repair',
+      ovenDesc: 'Gas and electric oven maintenance and repair',
+    },
+    testimonials: {
+      title: 'Customer Reviews',
+      subtitle: 'What our clients say about our services',
+    },
+    booking: {
+      title: 'Book Your Appointment',
+      subtitle: 'Fill out the form and we\'ll contact you via WhatsApp',
+      name: 'Full Name',
+      phone: 'Phone Number (WhatsApp)',
+      appliance: 'Appliance Type',
+      selectAppliance: 'Select appliance type',
+      issue: 'Issue Description',
+      date: 'Preferred Date',
+      pickDate: 'Pick a date',
+      submit: 'Submit Request',
+      success: 'Thank you! We will contact you on WhatsApp shortly.',
+      appliances: {
+        ac: 'Air Conditioner',
+        fridge: 'Refrigerator',
+        washer: 'Washing Machine',
+        oven: 'Oven',
+        other: 'Other',
+      },
+    },
+    map: {
+      title: 'Our Location',
+      subtitle: 'Serving all neighborhoods in Riyadh',
+    },
+    footer: {
+      rights: 'All rights reserved',
+      description: 'Specialized in HVAC and home appliance maintenance and repair in Riyadh',
+    },
+    reviews: [
+      { name: 'Ahmed Mohammed', text: 'Excellent and fast service. The technician was very professional and fixed the AC quickly.' },
+      { name: 'Sara Al-Ali', text: 'Best maintenance company I\'ve dealt with. Reasonable prices and high quality.' },
+      { name: 'Khalid Al-Rashid', text: 'Amazing experience from start to finish. I recommend them to everyone.' },
+    ],
+  },
+} as const;
