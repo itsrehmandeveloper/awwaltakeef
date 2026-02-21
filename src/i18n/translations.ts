@@ -10,7 +10,7 @@ export const translations = {
     },
     hero: {
       title: 'خبراء صيانة التكييف والأجهزة المنزلية في الرياض',
-      subtitle: 'خدمة سريعة وموثوقة من فنيين معتمدين. نصلك أينما كنت في الرياض.',
+      subtitle: 'خدمة سريعة وموثوقة من فنيين معتمدي.',
       cta: 'احجز فني الآن',
     },
     services: {
@@ -72,7 +72,7 @@ export const translations = {
     },
     hero: {
       title: 'Expert HVAC & Appliance Repair in Riyadh',
-      subtitle: 'Fast, reliable service from certified technicians. We come to you anywhere in Riyadh.',
+      subtitle: 'Fast, reliable service from certified technicians.',
       cta: 'Book a Technician',
     },
     services: {
